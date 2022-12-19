@@ -15,17 +15,18 @@ export default function Home() {
 
       <Header />
 
-      {/* Hero  */}
-
       <section id="hero" className="snap-start">
         <Hero />
       </section>
 
-      {/* About */}
       <section id="about" className="snap-center">
         <About />
-      </section>start  {/* experience */}
-
+      </section>  
+      
+      {/* experience */}
+      <section>
+        
+      </section>
       {/* skils */}
 
       {/* project */}
