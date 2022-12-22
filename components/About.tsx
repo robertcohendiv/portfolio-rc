@@ -19,7 +19,7 @@ function About({}: Props) {
           opacity: 0,
         }}
         transition={{
-          duration: 1.2,
+          duration: 1.2,3
         }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
