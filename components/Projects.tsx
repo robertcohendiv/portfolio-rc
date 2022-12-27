@@ -12,7 +12,7 @@ function Projects({}: Props) {
       <div className='flex relative overflow-hidden flex-col text-left md:flex-row max-w-full h-screen justify-evenly mx-auto items-center z-0"'>
        
         
-        {/* prodject ss */}
+        {/* prodject ss s*/}
 
       </div>
       <div className='w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12'/>
