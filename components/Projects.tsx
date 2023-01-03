@@ -17,7 +17,7 @@ function Projects({}: Props) {
            />
 
             <div> 
-              <h4>Case study 1 of 3: ups cln done </h4>
+              <h4>Case study 1 of 3: ups cln ddsone </h4>
             </div>
 
             </div>
