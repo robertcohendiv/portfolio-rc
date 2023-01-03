@@ -10,22 +10,28 @@ function Projects({}: Props) {
         Projects
       </h3>
       <div className='flex relative overflow-hidden flex-col text-left md:flex-row max-w-full h-screen justify-evenly mx-auto items-center z-20"'>
-        {projects.map((project) => (
-            <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center">
-            <img src="https://cdn.sanity.io/images/ltuexkre/production/af7ca995a796d0698cf9121a4a0795b5022b6be-666×375.png"
-             alt=""
-           />
+        {projects.map((project, i) => (
+          <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center">
+            <img
+              src="https://cdn.sanity.io/images/ltuexkre/production/af7ca99b5a796d0698cf9121a4a0795b5022b6be-666x375.png"
+              alt=""
+            />
 
-            <div> 
-              <h4>Case study 1 of 3: ups cln ddsone </h4>
+            <div className="space-y-10 px-0 md:px-10 max-w-6xl">
+              <h4 className="text-4xl font-semibold text-center">
+                <span className="underline decoration-[#F7AB0A]/50">
+                  Case study {i + 1} of {projects.length}:{" "}
+                </span>
+                {""} UPS clone
+              </h4>
+              <p>
+                netflix test test test 
+              </p>
             </div>
-
-            </div>
+          </div>
         ))}
-
       </div>
-      <div className='w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12'/>
-      
+      <div className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12" />
     </div>
   );
 }
