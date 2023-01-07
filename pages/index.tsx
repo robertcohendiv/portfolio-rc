@@ -35,7 +35,7 @@ export default function Home() {
         <Skills />
       </section>
 
-     {/*  <sectsdsdaion id="projects" className="snap-start">
+     {/*  <sectsdsdaion id="projects" classNadme="snap-start">
         <Projects />
       </section>   d*/}
 
